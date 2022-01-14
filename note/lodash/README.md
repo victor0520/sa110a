@@ -1,4 +1,4 @@
-# 實作loadash函數，用傳統作法、BDD、TDD的方式進行實作(都是原創)
+# 實作loadash函數，用傳統作法、BDD、TDD的方式進行實作(原創)
 ### 傳統做法:[divide](https://github.com/victor0520/sa110a/blob/master/note/lodash/divide/divide.js)
 * divide.js
 ```
@@ -42,3 +42,27 @@ export function last(list) {
 * 執行結果
 
 ![PICTURE](https://github.com/victor0520/sa110a/blob/master/note/lodash/last/1.png)
+
+
+### BDD:[lt]((https://github.com/victor0520/sa110a/blob/master/note/lodash/lt/lt.js)
+* lttest.js
+```
+import { expect } from "https://deno.land/x/tdd/mod.ts"
+import * as _ from "./lt.js"
+
+Deno.test("lt",() => {
+    expect(_.lt(1, 3))
+    expect(_.lt(3, 3))
+    expect(_.lt(3, 1))
+})
+```
+* lt.js
+```
+export function lt(value, other){
+    if(value > other)    return true
+    else return false
+}
+```
+* 執行結果
+
+![PICTURE](https://github.com/victor0520/sa110a/blob/master/note/lodash/lt/1.png)
