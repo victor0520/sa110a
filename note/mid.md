@@ -111,7 +111,7 @@ class KeyGA(GeneticAlgorithm):
 kga = KeyGA("1010101010101010")
 kga.run(100, 20)
 ```
-* [執行結果:ga.out]()
+* [執行結果:ga.out](https://github.com/victor0520/sa110a/blob/master/note/ga.out.txt)
 
 
 # 參考資料

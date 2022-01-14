@@ -1,4 +1,4 @@
-# 實作loadash函數，用傳統作法、BDD、TDD的方式進行實作
+# 實作loadash函數，用傳統作法、BDD、TDD的方式進行實作(都是原創)
 ### 傳統做法:[divide](https://github.com/victor0520/sa110a/blob/master/note/lodash/divide/divide.js)
 * divide.js
 ```
