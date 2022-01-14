@@ -44,7 +44,7 @@ export function last(list) {
 ![PICTURE](https://github.com/victor0520/sa110a/blob/master/note/lodash/last/1.png)
 
 
-### BDD:[lt]((https://github.com/victor0520/sa110a/blob/master/note/lodash/lt/lt.js)
+### BDD:[lt](https://github.com/victor0520/sa110a/blob/master/note/lodash/lt/lt.js)
 * lttest.js
 ```
 import { expect } from "https://deno.land/x/tdd/mod.ts"
